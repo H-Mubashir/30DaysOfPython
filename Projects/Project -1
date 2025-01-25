@@ -1,0 +1,8 @@
+import random
+
+random_data = [random.randint(1, 100) for _ in range(10)]
+print(random_data)
+data = [5, 10, 7, 12, 9]
+
+for value in data:
+    print('*' * value)
